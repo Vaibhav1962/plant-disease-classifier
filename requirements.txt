@@ -3,7 +3,7 @@ streamlit
 
 # --- TensorFlow build compatible with Python 3.13 ---
 tensorflow==2.20.0
-keras==3.5.0
+keras==3.10.0
 
 # --- Utilities ---
 numpy
