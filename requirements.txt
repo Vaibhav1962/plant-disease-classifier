@@ -1,9 +1,9 @@
 # --- Core Framework ---
 streamlit
 
-# --- TensorFlow build (includes CPU backend; 2.15 supports Python 3.11) ---
-tensorflow==2.15.0
-keras==2.15.0
+# --- TensorFlow (Py 3.12 compatible) ---
+tensorflow==2.20.0
+keras==3.5.0
 
 # --- Utilities ---
 numpy
@@ -16,4 +16,4 @@ matplotlib
 
 # --- Compatibility Fixes ---
 protobuf==4.25.3
-h5py==3.10.0
+h5py==3.11.0
