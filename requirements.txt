@@ -1,7 +1,7 @@
 # --- Core Framework ---
 streamlit
 
-# --- TensorFlow (Py 3.12 compatible) ---
+# --- TensorFlow build compatible with Python 3.13 ---
 tensorflow==2.20.0
 keras==3.5.0
 
@@ -15,5 +15,5 @@ plotly
 matplotlib
 
 # --- Compatibility Fixes ---
-protobuf==4.25.3
+protobuf>=5.28.0
 h5py==3.11.0
