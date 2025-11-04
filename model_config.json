@@ -1,0 +1,9 @@
+{
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "num_classes": 38,
+  "model_type": "MobileNetV2 + Functional API"
+}
