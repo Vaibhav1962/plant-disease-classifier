@@ -9,6 +9,7 @@ keras==3.10.0
 numpy
 pandas
 pillow
+h5py
 
 # --- Visualization ---
 plotly
@@ -16,4 +17,3 @@ matplotlib
 
 # --- Compatibility Fixes ---
 protobuf>=5.28.0
-h5py==3.11.0
