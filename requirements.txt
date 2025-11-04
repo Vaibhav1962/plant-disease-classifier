@@ -1,6 +1,21 @@
-streamlit>=1.37.0
-tensorflow-cpu==2.16.1
+# Streamlit Web Framework
+streamlit
+
+# TensorFlow CPU build (lightweight, fully compatible with Keras 3)
+tensorflow-cpu==2.15.0
+
+# Keras 3 support for .keras model format
+keras==3.2.0
+
+# Core scientific packages
 numpy
-pillow
-plotly
 pandas
+pillow
+
+# Visualization
+plotly
+matplotlib
+
+# Optional performance fixes
+protobuf==4.25.3
+h5py==3.11.0
