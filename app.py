@@ -1047,25 +1047,4 @@ elif page == "About":
         </div>
         """, unsafe_allow_html=True)
     
-    # Disclaimer
-    st.markdown("<h2 class='section-header'>Important Notice</h2>", unsafe_allow_html=True)
-    
-    st.markdown("""
-    <div class='glass-card' style='border-left: 4px solid #f59e0b;'>
-        <h3>⚠️ Disclaimer</h3>
-        <p>This AI-powered plant disease detection system is designed to assist in preliminary diagnosis and should be used as a supportive tool rather than a definitive diagnostic solution.</p>
-        
-        <p style='margin-top: 1rem;'><strong>Important Considerations:</strong></p>
-        <ul style='margin-left: 1rem; line-height: 2;'>
-            <li>Always consult with certified agricultural professionals or plant pathologists for accurate diagnosis</li>
-            <li>Predictions are based on visual patterns and may not account for all environmental factors</li>
-            <li>Treatment decisions should be made in consultation with experts</li>
-            <li>The system's accuracy depends on image quality and clarity</li>
-            <li>Results may vary based on lighting, angle, and disease progression stage</li>
-        </ul>
-        
-        <p style='margin-top: 1rem; padding: 1rem; background: rgba(245, 158, 11, 0.1); border-radius: 8px;'>
-            <strong>Recommendation:</strong> Use this tool as part of an integrated approach to plant health management, combining AI insights with professional expertise and field observations.
-        </p>
-    </div>
-    """, unsafe_allow_html=True)
+   
