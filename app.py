@@ -1201,5 +1201,3 @@ elif page == "About":
             <p>Transfer Learning</p>
         </div>
         """, unsafe_allow_html=True)
-    
-    st.markdown("<h2 class='section-header'>Important Notice</h2>", unsafe_allow_html=True)
